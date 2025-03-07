@@ -1,0 +1,47 @@
+{
+    "projections": [
+        {
+            "0": {
+                "radius": 750.0,
+                "lens": 187.0,
+                "center_x": 993.0,
+                "center_y": 762.0,
+                "rot_x": 0.0,
+                "rot_y": 0.0,
+                "rot_z": -89.6,
+                "fisheye": true
+            }
+        },
+        {
+            "1": {
+                "radius": 750.3,
+                "lens": 186.0,
+                "center_x": 1044.0,
+                "center_y": 776.0,
+                "rot_x": 0.0,
+                "rot_y": 0.0,
+                "rot_z": 88.7,
+                "fisheye": true
+            }
+        }
+    ],
+    "homographies": [
+        {
+            "images": {
+                "target": 1,
+                "reference": 0
+            },
+            "matrix": {
+                "h00": 1,
+                "h01": 0,
+                "h02": 0.0,
+                "h10": 0,
+                "h11": 1,
+                "h12": 0,
+                "h20": 0,
+                "h21": 0,
+                "h22": 1
+            }
+        }
+    ]
+}

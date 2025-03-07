@@ -1,0 +1,463 @@
+{
+  "cameras" : 
+  {
+    "0" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.73712939023971558,
+          "b" : 0.50519555807113647,
+          "c" : -0.35276281833648682,
+          "d" : -0.44117426872253418,
+          "e" : 0.64858847856521606,
+          "f" : 0.27999106049537659,
+          "g" : -0.26083588600158691,
+          "h" : 0.35347768664360046,
+          "i" : 1.1633678674697876
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 0,
+              "y" : 265
+            },
+            {
+              "x" : 330,
+              "y" : 570
+            },
+            {
+              "x" : 400,
+              "y" : 700
+            },
+            {
+              "x" : 330,
+              "y" : 1080
+            },
+            {
+              "x" : 0,
+              "y" : 1000
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -1.5700004100799561
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 1.2635722160339355,
+          "scale_y" : 2.2463505268096924
+        },
+        "translate" : 
+        {
+          "offset_x" : 0.72999942302703857,
+          "offset_y" : 1.2700002193450928
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_0.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "1" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : -0.044277790933847427,
+          "b" : -0.90778148174285889,
+          "c" : 0.29271748661994934,
+          "d" : 0.72399067878723145,
+          "e" : -0.013379804790019989,
+          "f" : -0.088442869484424591,
+          "g" : -0.55011820793151855,
+          "h" : 0.014883602038025856,
+          "i" : 1.0657110214233398
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 0,
+              "y" : 0
+            },
+            {
+              "x" : 1079,
+              "y" : 0
+            },
+            {
+              "x" : 1079,
+              "y" : 265
+            },
+            {
+              "x" : 849,
+              "y" : 700
+            },
+            {
+              "x" : 230,
+              "y" : 700
+            },
+            {
+              "x" : 0,
+              "y" : 265
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -1.5700002908706665
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 1.2592018842697144,
+          "scale_y" : 2.2385823726654053
+        },
+        "translate" : 
+        {
+          "offset_x" : -0.25000041723251343,
+          "offset_y" : 1.2500013113021851
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_1.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "2" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.39221259951591492,
+          "b" : -0.19648106396198273,
+          "c" : 0.19387663900852203,
+          "d" : 0.17565029859542847,
+          "e" : 0.34487378597259521,
+          "f" : 0.3513910174369812,
+          "g" : 0.07446560263633728,
+          "h" : 0.17175126075744629,
+          "i" : 1.1645822525024414
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 1079,
+              "y" : 265
+            },
+            {
+              "x" : 750,
+              "y" : 570
+            },
+            {
+              "x" : 750,
+              "y" : 800
+            },
+            {
+              "x" : 849,
+              "y" : 980
+            },
+            {
+              "x" : 1079,
+              "y" : 950
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : 1.570000171661377
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 2.5935375690460205,
+          "scale_y" : 4.6107330322265625
+        },
+        "translate" : 
+        {
+          "offset_x" : -2.0499997138977051,
+          "offset_y" : 2.0600001811981201
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_2.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "3" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.21086935698986053,
+          "b" : -0.14194862544536591,
+          "c" : -0.16404424607753754,
+          "d" : 0.080169312655925751,
+          "e" : 0.10518623888492584,
+          "f" : 0.17887057363986969,
+          "g" : -0.11640519648790359,
+          "h" : -0.19116370379924774,
+          "i" : 0.68202441930770874
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 0,
+              "y" : 1919
+            },
+            {
+              "x" : 100,
+              "y" : 1919
+            },
+            {
+              "x" : 330,
+              "y" : 1349
+            },
+            {
+              "x" : 220,
+              "y" : 1020
+            },
+            {
+              "x" : 0,
+              "y" : 800
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : 1.5700000524520874
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 2.5709428787231445,
+          "scale_y" : 4.5705633163452148
+        },
+        "translate" : 
+        {
+          "offset_x" : 2.010000467300415,
+          "offset_y" : -0.97000008821487427
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_5.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "4" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.94473862648010254,
+          "b" : 0.022109542042016983,
+          "c" : -0.20542541146278381,
+          "d" : -0.010362514294683933,
+          "e" : 0.77311581373214722,
+          "f" : 0.10355335474014282,
+          "g" : -0.016908327117562294,
+          "h" : 0.54274260997772217,
+          "i" : 1.0748207569122314
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 1079,
+              "y" : 1919
+            },
+            {
+              "x" : 849,
+              "y" : 1149
+            },
+            {
+              "x" : 230,
+              "y" : 1149
+            },
+            {
+              "x" : 0,
+              "y" : 1919
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -6.2799949645996094
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 1.2757339477539062,
+          "scale_y" : 2.2679717540740967
+        },
+        "translate" : 
+        {
+          "offset_x" : 0.26000016927719116,
+          "offset_y" : -1.2300001382827759
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_4.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    },
+    "5" : 
+    {
+      "calibration" : 
+      {
+        "denormalize" : 
+        {
+          "size_height" : 720,
+          "size_width" : 1280
+        },
+        "normalize" : 
+        {
+          "size_height" : 1920,
+          "size_width" : 1080
+        },
+        "perspective" : 
+        {
+          "a" : 0.39525964856147766,
+          "b" : 0.33417212963104248,
+          "c" : 0.041918564587831497,
+          "d" : -0.1350695937871933,
+          "e" : 0.23952913284301758,
+          "f" : 0.069071367383003235,
+          "g" : 0.32219934463500977,
+          "h" : -0.33822798728942871,
+          "i" : 0.89020431041717529
+        },
+        "roi" : 
+        {
+          "vertices" : 
+          [
+            {
+              "x" : 1079,
+              "y" : 830
+            },
+            {
+              "x" : 849,
+              "y" : 980
+            },
+            {
+              "x" : 800,
+              "y" : 1519
+            },
+            {
+              "x" : 1079,
+              "y" : 1919
+            }
+          ]
+        },
+        "rotate" : 
+        {
+          "rot_x" : 0,
+          "rot_y" : 0,
+          "rot_z" : -1.5700000524520874
+        },
+        "scale1" : 
+        {
+          "scale_x" : 1,
+          "scale_y" : 1.7777777910232544
+        },
+        "scale2" : 
+        {
+          "scale_x" : 1.2449822425842285,
+          "scale_y" : 2.2132995128631592
+        },
+        "translate" : 
+        {
+          "offset_x" : -1.2400010824203491,
+          "offset_y" : -0.69999969005584717
+        }
+      },
+      "pipeline" : "filesrc location=samples/bev_6_cameras/cam_3.jpg ! jpegparse ! jpegdec ! queue ! videoconvert ! video/x-raw,format=RGBx ! imagefreeze  ! appsink name=appsink drop=false sync=true qos=false max-buffers=1 max-lateness=-1"
+    }
+  },
+  "overlay" : 
+  {
+    "pipeline" : "filesrc location=samples/bev_6_cameras/top_car.png ! pngdec ! videoconvert ! videoscale ! video/x-raw,format=RGBx,width=600,height=550 ! appsink name=appsink",
+    "x_pos" : 240,
+    "y_pos" : 650
+  }
+}
